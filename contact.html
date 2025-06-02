@@ -6,18 +6,64 @@
     <title>Contact Me</title>
 </head>
 <body>
+
     <div class="contact__container">
-        <!-- image -->
-        <section class="contact__textContainer">
+        <div class="contact__left">
+            <!-- img -->
+        </div>
+        <section class="contact__right">
             <h2 class="contact__heading">
-                Get In Touch
+                Get in Touch
             </h2>
-            <!-- Form -->
-            <!-- Contact email -->
-            <!-- Based in -->
-            <!-- Socials -->
+            <div class="contact__textContainer">
+                <form action="" class="contact__form">
+                    <input 
+                        class="contact__inputs"
+                        placeholder="Enter Your Name"
+                        type="text" 
+                        name="name"
+                        required>
+                    <input 
+                        class="contact__inputs"
+                        placeholder="Enter Your Email"
+                        type="email" 
+                        name="email"
+                        required>
+                    <textarea class="contact__message" placeholder="Enter Your Message" name="message" id="message" required></textarea>
+                    <button 
+                        class="contact__button"
+                        type="submit">
+                        Contact Me
+                    </button>
+                </form>
+                <div class="contact__info">
+                    <section class="contact__myInfo">
+                        <h3 class="contact__subheading">
+                            Contact
+                        </h3>
+                        <p class="contact__infoText">
+                            sobiahselvarajah@hotmail.co.uk
+                        </p>
+                        <h3 class="contact__subheading">
+                            Based in
+                        </h3>
+                        <p class="contact__infoText">
+                            London,
+                            <br>
+                            United Kingdom
+                        </p>                        
+                    </section>
+                    <ul class="contact__socials">
+                        <li class="contact__socialItem">
+                            <!-- linkedin -->
+                        </li>
+                        <li class="contact__socialItem">
+                            <!-- instagram -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </div>
-
 </body>
 </html>
